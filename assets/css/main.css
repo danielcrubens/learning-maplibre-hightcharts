@@ -1,0 +1,7 @@
+body {
+  @apply bg-gray-100;
+}
+
+.maplibregl-popup-content {
+  @apply p-3 rounded-lg shadow-lg;
+}
