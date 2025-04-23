@@ -1,0 +1,25 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev -o",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "@highcharts/map-collection": "^2.3.0",
+    "@nuxtjs/tailwindcss": "^6.13.2",
+    "highcharts": "^12.2.0",
+    "maplibre-gl": "^5.4.0",
+    "nuxt": "^3.16.2",
+    "vue": "^3.5.13",
+    "vue-router": "^4.5.0"
+  },
+  "devDependencies": {
+    "@types/highcharts": "^5.0.44",
+    "@types/maplibre-gl": "^1.13.2"
+  }
+}
